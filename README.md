@@ -1,4 +1,3 @@
-# Kotlin
 # JuniorEntreprise
 Projet « Junior Entreprise » - Module Application de Synthese - DUT Année Spéciale 2018-2019
 
