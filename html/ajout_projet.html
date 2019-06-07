@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Ajout Client</title>
+</head>
+<body>
+    <h1>Ajouter un Projet</h1>
+    <form action="" method=>
+        <input name="id" placeholder="Identifiant" type="number"/><br/>
+
+        <input name="nom" placeholder="Nom du projet" type = text/><br/>
+        <input name="categorie" placeholder="Categorie" type=text list=categories ><br/>
+        <datalist id=categories >
+            <option> ERP
+            <option> Site Web
+            <option> Autre
+        </datalist>
+        <input name="type" placeholder="Type de projet" type=text list=type ><br/>
+        <datalist id=categories >
+            <option> 1
+            <option> 2
+            <option> 3
+        </datalist>
+        <input name="max_etudiants" placeholder="Nombre d'étudiants(max)" type="number"/><br/>
+
+        <input name="raison_sociale" placeholder="Raison Sociale" type = text /><br/>
+        <input name="nom" placeholder="Nom du contact" type = text/><br/>
+        <input name="email" placeholder="Adresse mail du contact" type = email/><br/>
+        <input name="teléphone" placeholder="Téléphone" type ="tel"/><br/>
+        
+        <input name="note" placeholder="Note du Client" type = "range" min="0" max="5"/><br/>
+        
+        <input name ="ajouter_client" type="submit" value="Ajouter">
+        <input name ="annuler" type="reset" value="Annuler">
+    </form>
+</body>
+</html>
